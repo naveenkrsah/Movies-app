@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 400;
+}
+
+.newclass{
+  @apply text-blue-700 bg-white  border-[0.5px] border-solid border-black 
+
+}
+
+@tailwind utilities;
